@@ -14,8 +14,8 @@ body {
 
 input {
   display: block;
-  margin: 0 auto;
-
+  margin: 1px;
+  text-align: center;
 }
 
 #contact-details {
@@ -30,4 +30,14 @@ input {
 
 li {
   list-style: none;
+}
+
+#form-container form *{
+  display:inline;
+}
+
+ul#contacts li {
+  color: purple;
+  text-decoration: underline;
+  cursor: pointer;
 }

@@ -10,30 +10,28 @@
     <h1>Address Book</h1>
     <h3>Add a Contact:</h3>
     <div class="container">
-      <form id="letters">
-          <input id="first-name" type="text" placeholder="Enter a first name">
-          <input id="last-name" type="text" placeholder="Enter a last name">
-          <input id="street" type="text" placeholder="Enter a street">
-          <input id="city" type="text" placeholder="Enter a city">
-          <input id="state" type="text" placeholder="Enter a state">
-          <button type="submit" id="another-address">Another Address</button>
-          <button type="submit" id="add-address">Add</button>
-      </form>
+      <div id ="form-container">
+        <form id="contact-info">
+            <button type="submit" id="add-address">Add</button>
+            <br />
+            <input id="first-name" type="text" placeholder="Enter a first name">
+            <input id="last-name" type="text" placeholder="Enter a last name">
+            <br />
+
+            </div>
+        </form>
+      </div>
+
+      <button id="another-address">Another Address</button>
+      <br />
       <div id="contact-list">
-      <h3>Contacts:</h3>
-      <ul id="contacts">
-        <li>stuff</li>
-        <li>stuff</li>
-        <li>stuff</li>
-      </ul>
+        <h3>Contacts:</h3>
+        <ul id="contacts">
+        </ul>
       </div>
       <div id="contact-details">
       <h3>Contacts Details:</h3>
-      <ul id="details">
-        <li>stuff</li>
-        <li>stuff</li>
-        <li>stuff</li>
-      </ul>
+        <p></p>
       </div>
     </div>
   </body>
