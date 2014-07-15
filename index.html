@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Address Book</title>
   </head>
-
   <body>
+    <h1>Address Book</h1>
+    <h3>Add a Contact:</h3>
     <div class="container">
-
       <form id="letters">
-        <div class="form-group">
-          <label for="input"></label>
-          <input id="input" type="text">
-        </div>
-        <button type="submit" id="btn">Click here!</button>
+          <input id="first-name" type="text" placeholder="Enter a first name">
+          <input id="last-name" type="text" placeholder="Enter a last name">
+          <input id="street" type="text" placeholder="Enter a street">
+          <input id="city" type="text" placeholder="Enter a city">
+          <input id="state" type="text" placeholder="Enter a state">
+          <button type="submit" id="another-address">Another Address</button>
+          <button type="submit" id="add-address">Add</button>
       </form>
-      <p><span id="title"></span> </p>
-
+      <div id="contact-list">
+      <h3>Contacts:</h3>
+      <ul id="contacts">
+        <li>stuff</li>
+        <li>stuff</li>
+        <li>stuff</li>
+      </ul>
+      </div>
+      <div id="contact-details">
+      <h3>Contacts Details:</h3>
+      <ul id="details">
+        <li>stuff</li>
+        <li>stuff</li>
+        <li>stuff</li>
+      </ul>
+      </div>
     </div>
   </body>
 </html>
