@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
   $("form#contact-info").submit(function(event) {
     event.preventDefault();
     var newFirstName = $("input#first-name").val();
@@ -31,6 +30,7 @@ $(document).ready(function(){
     });
 
     console.log(newPerson);
+
     $('ul#contacts').click(function() {
       $('#contact-details p').text('');
       var addressInfo = newPerson.addresses.forEach(function(address){
